@@ -345,6 +345,13 @@
 					<displayCommandOutputs>true</displayCommandOutputs>
 				</configuration>
 			</plugin>
+			
+			<!-- 支持码云代码托管平台在线文档生成 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>3.0.0</version>
+			</plugin>
 
 			<plugin>
 				<groupId>com.spotify</groupId>
