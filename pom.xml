@@ -45,11 +45,11 @@
 		<dozer.version>5.5.1</dozer.version>
 
 		<!--wagon plugin 配置-->
-		<service-path>/work/renren</service-path>
+		<!--<service-path>/work/xuchangjiang</service-path>
 		<pack-name>${project.artifactId}-${project.version}.jar</pack-name>
 		<remote-addr>192.168.1.10:22</remote-addr>
 		<remote-username>root</remote-username>
-		<remote-passwd>123456</remote-passwd>
+		<remote-passwd>1234</remote-passwd>-->
 	</properties>
 
 	<dependencies>
