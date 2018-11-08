@@ -3,7 +3,6 @@ package com.datang.modules.app.controller;
 
 import com.datang.common.utils.Result;
 import com.datang.modules.app.form.LoginForm;
-import com.datang.modules.vc.service.MemberService;
 import com.datang.common.validator.ValidatorUtils;
 import com.datang.modules.app.service.UserService;
 import com.datang.modules.app.utils.JwtUtils;
@@ -30,8 +29,6 @@ public class AppLoginController {
     private UserService userService;
     @Autowired
     private JwtUtils jwtUtils;
-    @Autowired
-    private MemberService memberService;
 
     /**
      * 登录
