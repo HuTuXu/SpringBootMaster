@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2013-Now http://jeesite.com All rights reserved.
- */
 package com.datang.common.io;
 
 import com.datang.common.collect.SetUtils;
@@ -23,8 +20,8 @@ import java.util.regex.Pattern;
  * Properties工具类， 可载入多个properties、yml文件，
  * 相同的属性在最后载入的文件中的值将会覆盖之前的值， 
  * 取不到从System.getProperty()获取。
- * @author ThinkGem
- * @version 2017-12-30
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public class PropertiesUtils {
 	

@@ -1,8 +1,3 @@
-/**
- * Copyright (c) 2005-2012 springside.org.cn
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- */
 package com.datang.common.reflect;
 
 import com.datang.common.lang.DateUtils;
@@ -19,8 +14,8 @@ import java.util.Date;
 /**
  * 反射工具类.
  * 提供调用getter/setter方法, 访问私有变量, 调用私有方法, 获取泛型类型Class, 被AOP过的真实类等工具函数.
- * @author calvin、ThinkGem
- * @version 2015-11-12
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 @SuppressWarnings("rawtypes")
 public class ReflectUtils {

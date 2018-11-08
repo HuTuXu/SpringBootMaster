@@ -6,10 +6,8 @@ import com.datang.modules.sys.entity.SysUserTokenEntity;
 
 /**
  * 用户Token
- * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-03-23 15:22:07
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public interface SysUserTokenService extends IService<SysUserTokenEntity> {
 

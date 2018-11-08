@@ -8,10 +8,8 @@ import java.util.List;
 
 /**
  * 系统用户
- * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年9月18日 上午9:34:11
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 @Mapper
 public interface SysUserDao extends BaseMapper<SysUserEntity> {

@@ -14,10 +14,8 @@ import java.util.List;
 
 /**
  * 用户与角色对应关系
- * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年9月18日 上午9:45:48
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 @Service("sysUserRoleService")
 public class SysUserRoleServiceImpl extends ServiceImpl<SysUserRoleDao, SysUserRoleEntity> implements SysUserRoleService {

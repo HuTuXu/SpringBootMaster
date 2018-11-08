@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2013-Now http://jeesite.com All rights reserved.
- */
 package com.datang.common.collect;
 
 import java.util.*;
@@ -9,8 +6,8 @@ import java.util.concurrent.CopyOnWriteArraySet;
 
 /**
  * Set工具类
- * @author ThinkGem
- * @version 2015-01-15
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public class SetUtils extends org.apache.commons.collections.SetUtils {
 

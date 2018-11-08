@@ -1,8 +1,3 @@
-/**
- * Copyright (c) 2005-2012 springside.org.cn
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- */
 package com.datang.common.codec;
 
 import com.datang.common.lang.ExceptionUtils;
@@ -25,8 +20,8 @@ import java.util.regex.Pattern;
  * 2.自制的base62 编码
  * 3.Commons-Lang的xml/html escape
  * 4.JDK提供的URLEncoder
- * @author calvin
- * @version 2013-01-15
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public class EncodeUtils {
 	

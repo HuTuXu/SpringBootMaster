@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2013-Now http://jeesite.com All rights reserved.
- */
 package com.datang.common.codec;
 
 import com.datang.common.lang.ExceptionUtils;

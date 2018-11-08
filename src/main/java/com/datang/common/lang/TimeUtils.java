@@ -10,8 +10,8 @@ import java.util.Date;
 
 /**
  * 时间计算工具类
- * @author ThinkGem
- * @version 2015-6-20
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public class TimeUtils {
 	

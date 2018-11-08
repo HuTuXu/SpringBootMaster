@@ -8,10 +8,8 @@ import java.io.Serializable;
 
 /**
  * 角色与菜单对应关系
- * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年9月18日 上午9:28:13
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 @TableName("sys_role_menu")
 public class SysRoleMenuEntity implements Serializable {

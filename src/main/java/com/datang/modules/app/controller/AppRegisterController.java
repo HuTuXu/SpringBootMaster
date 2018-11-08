@@ -19,9 +19,8 @@ import java.util.Date;
 
 /**
  * 注册
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-03-26 17:27
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 @RestController
 @RequestMapping("/app")

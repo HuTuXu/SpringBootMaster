@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2013-Now http://jeesite.com All rights reserved.
- */
 package com.datang.common.lang;
 
 import org.apache.commons.lang3.time.FastDateFormat;
@@ -12,8 +9,8 @@ import java.util.Date;
 
 /**
  * 日期工具类, 继承org.apache.commons.lang.time.DateUtils类
- * @author ThinkGem
- * @version 2017-1-4
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public class DateUtils extends org.apache.commons.lang3.time.DateUtils {
 	

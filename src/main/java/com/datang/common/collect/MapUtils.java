@@ -14,8 +14,8 @@ import java.util.concurrent.ConcurrentMap;
 
 /**
  * Map工具类，实现 Map <-> Bean 互相转换
- * @author ThinkGem
- * @version 2015-01-15
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public class MapUtils extends org.apache.commons.collections.MapUtils {
 

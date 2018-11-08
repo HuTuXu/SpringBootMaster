@@ -10,10 +10,8 @@ import javax.servlet.DispatcherType;
 
 /**
  * Filter配置
- *
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-04-21 21:56
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 @Configuration
 public class FilterConfig {

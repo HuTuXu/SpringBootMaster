@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2013-Now http://jeesite.com All rights reserved.
- */
 package com.datang.common.reflect;
 
 import org.apache.commons.logging.Log;
@@ -20,8 +17,8 @@ import java.util.jar.JarInputStream;
 
 /**
  * Class工具类，借鉴ibatis的io包的ResolverUtil类。
- * @author ThinkGem
- * @version 2016-4-28
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public class ClassUtils {
 	

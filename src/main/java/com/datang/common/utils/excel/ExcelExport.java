@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2013-Now http://jeesite.com All rights reserved.
- */
 package com.datang.common.utils.excel;
 
 import com.datang.common.codec.EncodeUtils;
@@ -32,8 +29,8 @@ import java.util.*;
 
 /**
  * 导出Excel文件（导出“XLSX”格式，支持大数据量导出   @see org.apache.poi.ss.SpreadsheetVersion）
- * @author ThinkGem
- * @version 2013-04-21
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public class ExcelExport {
 	

@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2013-Now http://jeesite.com All rights reserved.
- */
 package com.datang.common.utils.excel.annotation;
 
 import java.lang.annotation.ElementType;
@@ -10,8 +7,8 @@ import java.lang.annotation.Target;
 
 /**
  * Excel注解定义
- * @author ThinkGem
- * @version 2013-03-10
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 @Target({ElementType.METHOD, ElementType.FIELD, ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)

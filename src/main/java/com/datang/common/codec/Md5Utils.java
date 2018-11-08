@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2013-Now http://jeesite.com All rights reserved.
- */
 package com.datang.common.codec;
 
 import org.apache.commons.lang3.StringUtils;
@@ -11,7 +8,8 @@ import java.io.UnsupportedEncodingException;
 
 /**
  * MD5不可逆加密工具类
- * @author ThinkGem
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public class Md5Utils {
 

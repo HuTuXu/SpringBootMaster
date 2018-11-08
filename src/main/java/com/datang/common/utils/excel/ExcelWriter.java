@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2013-Now http://jeesite.com All rights reserved.
- */
 package com.datang.common.utils.excel;
 
 import org.apache.poi.hssf.util.CellReference;
@@ -18,7 +15,8 @@ import java.util.zip.ZipOutputStream;
 /**
  * Excel超大数据写入，抽象excel2007读入器，先构建.xlsx一张模板，改写模板中的sheet.xml,
  * 使用这种方法 写入.xlsx文件，不需要太大的内存
- * @version 2014-9-2
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public abstract class ExcelWriter {
 

@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2013-Now http://jeesite.com All rights reserved.
- */
 package com.datang.common.utils.excel;
 
 import com.datang.common.lang.DateUtils;
@@ -33,8 +30,8 @@ import java.util.*;
 
 /**
  * 导入Excel文件（支持“XLS”和“XLSX”格式）
- * @author ThinkGem
- * @version 2014-8-19
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public class ExcelImport {
 	

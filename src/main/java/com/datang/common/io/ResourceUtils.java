@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2013-Now http://jeesite.com All rights reserved.
- */
 package com.datang.common.io;
 
 import com.datang.common.lang.ExceptionUtils;
@@ -14,8 +11,8 @@ import java.io.InputStream;
 
 /**
  * 资源供给类
- * @author ThinkGem
- * @version 2016-9-16
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public class ResourceUtils extends org.springframework.util.ResourceUtils {
 	

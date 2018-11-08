@@ -4,7 +4,8 @@ import java.util.Calendar;
 
 /**
  * 工作日计算工具类
- * @author ThinkGem
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public class WorkDayUtils {
 

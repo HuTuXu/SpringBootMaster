@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2013-Now http://jeesite.com All rights reserved.
- */
 package com.datang.common.utils.excel.fieldtype;
 
 import java.text.DecimalFormat;
@@ -9,8 +6,8 @@ import java.text.NumberFormat;
 
 /**
  * 金额类型转换（保留两位）
- * @author ThinkGem
- * @version 2015-9-29
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  * @example fieldType = MoneyType.class
  */
 public class MoneyType {

@@ -1,11 +1,9 @@
-/**
- * Copyright (c) 2013-Now http://jeesite.com All rights reserved.
- */
 package com.datang.common.callback;
 
 /**
- * 方法回调接口
- * @author ThinkGem
+ * 方法回调
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public interface MethodCallback {
 

@@ -12,11 +12,10 @@ import java.util.Date;
 
 /**
  * jwt工具类
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017/9/21 22:21
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
-@ConfigurationProperties(prefix = "renren.jwt")
+@ConfigurationProperties(prefix = "xuchangjiang.jwt")
 @Component
 public class JwtUtils {
     private Logger logger = LoggerFactory.getLogger(getClass());

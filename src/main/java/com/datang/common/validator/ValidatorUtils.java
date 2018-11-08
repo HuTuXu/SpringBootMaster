@@ -9,11 +9,9 @@ import java.util.Set;
 
 /**
  * hibernate-validator校验工具类
- *
  * 参考文档：http://docs.jboss.org/hibernate/validator/5.4/reference/en-US/html_single/
- *
- * @author chenshun
- * @email sunlightcs@gmail.com
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  * @date 2017-03-15 10:50
  */
 public class ValidatorUtils {

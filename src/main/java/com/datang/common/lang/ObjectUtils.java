@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2013-Now http://jeesite.com All rights reserved.
- */
 package com.datang.common.lang;
 
 import com.datang.common.io.IOUtils;
@@ -16,8 +13,8 @@ import java.lang.reflect.Method;
 
 /**
  * 对象操作工具类, 继承org.apache.commons.lang3.ObjectUtils类
- * @author ThinkGem
- * @version 2014-6-29
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public class ObjectUtils extends org.apache.commons.lang3.ObjectUtils {
 

@@ -10,10 +10,8 @@ import java.util.Map;
 
 /**
  * 系统用户
- * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年9月18日 上午9:43:39
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public interface SysUserService extends IService<SysUserEntity> {
 

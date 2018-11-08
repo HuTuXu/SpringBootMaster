@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2013-Now http://jeesite.com All rights reserved.
- */
 package com.datang.common.io;
 
 import java.io.File;
@@ -10,7 +7,8 @@ import java.io.FileOutputStream;
 
 /**
  * 数据流工具类
- * @author ThinkGem
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public class IOUtils extends org.apache.commons.io.IOUtils {
 

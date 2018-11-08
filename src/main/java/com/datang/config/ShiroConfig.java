@@ -20,10 +20,8 @@ import java.util.Map;
 
 /**
  * Shiro配置
- *
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-04-20 18:33
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 @Configuration
 public class ShiroConfig {

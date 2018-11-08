@@ -2,10 +2,8 @@ package com.datang.common.utils;
 
 /**
  * Redis所有Keys
- *
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-07-18 19:51
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public class RedisKeys {
 

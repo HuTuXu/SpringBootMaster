@@ -1,14 +1,11 @@
-/**
- * Copyright (c) 2013-Now http://jeesite.com All rights reserved.
- */
 package com.datang.common.lang;
 
 import java.math.BigDecimal;
 
 /**
  * BigDecimal工具类
- * @author ThinkGem
- * @version 2016年6月11日
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public class NumberUtils extends org.apache.commons.lang3.math.NumberUtils {
 

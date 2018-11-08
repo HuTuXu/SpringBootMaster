@@ -14,8 +14,8 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
  * List工具类
- * @author ThinkGem
- * @version 2015-1-23
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 @SuppressWarnings("rawtypes")
 public class ListUtils extends org.apache.commons.collections.ListUtils {

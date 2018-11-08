@@ -1,11 +1,9 @@
-/**
- * Copyright (c) 2013-Now http://jeesite.com All rights reserved.
- */
 package com.datang.common.utils.excel;
 
 /**
  * Excel Exception
- * @author ThinkGem
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public class ExcelException extends RuntimeException {
 

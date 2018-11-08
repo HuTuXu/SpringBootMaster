@@ -10,10 +10,8 @@ import java.util.Properties;
 
 /**
  * 生成验证码配置
- *
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-04-20 19:22
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 @Configuration
 public class KaptchaConfig {

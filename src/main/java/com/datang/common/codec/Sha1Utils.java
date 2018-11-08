@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2013-Now http://jeesite.com All rights reserved.
- */
 package com.datang.common.codec;
 
 import java.io.IOException;
@@ -8,7 +5,8 @@ import java.io.InputStream;
 
 /**
  * SHA-1不可逆加密工具类
- * @author ThinkGem
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public class Sha1Utils {
 

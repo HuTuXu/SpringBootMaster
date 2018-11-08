@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2013-Now http://jeesite.com All rights reserved.
- */
 package com.datang.common.utils.excel;
 
 import org.apache.poi.hssf.usermodel.HSSFDateUtil;
@@ -26,7 +23,8 @@ import java.util.List;
 /**
  * Excel超大数据读取，抽象Excel2007读取器，excel2007的底层数据结构是xml文件，采用SAX的事件驱动的方法解析
  * xml，需要继承DefaultHandler，在遇到文件内容时，事件会触发，这种做法可以大大降低 内存的耗费，特别使用于大数据量的文件。
- * @version 2014-9-2
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public abstract class ExcelReader extends DefaultHandler {
 

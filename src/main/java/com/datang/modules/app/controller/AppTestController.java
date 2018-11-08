@@ -14,10 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * APP测试接口
- *
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-03-23 15:47
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 @RestController
 @RequestMapping("/app")

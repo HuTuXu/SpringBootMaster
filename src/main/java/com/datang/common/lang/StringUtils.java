@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2013-Now http://jeesite.com All rights reserved.
- */
 package com.datang.common.lang;
 
 import com.datang.common.codec.EncodeUtils;
@@ -15,8 +12,8 @@ import java.util.regex.Pattern;
 
 /**
  * 字符串工具类, 继承org.apache.commons.lang3.StringUtils类
- * @author ThinkGem
- * @version 2018-1-6
+ * @author xuchangjiang
+ * @email 13485386017@163.com
  */
 public class StringUtils extends org.apache.commons.lang3.StringUtils {
 	
