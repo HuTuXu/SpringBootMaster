@@ -5,7 +5,7 @@
 	<groupId>xuchangjiang</groupId>
 	<artifactId>xuchangjiang</artifactId>
 	<version>2.1.0</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<description>xuchangjiang</description>
 
 	<parent>
