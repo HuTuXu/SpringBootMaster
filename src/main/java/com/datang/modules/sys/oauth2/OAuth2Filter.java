@@ -53,7 +53,7 @@ public class OAuth2Filter extends AuthenticatingFilter {
             httpResponse.setHeader("Access-Control-Allow-Credentials", "true");
             httpResponse.setHeader("Access-Control-Allow-Origin", HttpContextUtils.getOrigin());
 
-            String json = new Gson().toJson(Result.error(40101, "invalid token"));
+            String json = new Gson().toJson(Result.error(HttpStatus.SC_UNAUTHORIZED, "invalid token"));
 
             httpResponse.getWriter().print(json);
 
