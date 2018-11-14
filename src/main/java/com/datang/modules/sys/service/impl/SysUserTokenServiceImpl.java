@@ -2,7 +2,6 @@ package com.datang.modules.sys.service.impl;
 
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.datang.common.utils.Result;
-import com.datang.common.utils.Result;
 import com.datang.modules.sys.dao.SysUserTokenDao;
 import com.datang.modules.sys.entity.SysUserTokenEntity;
 import com.datang.modules.sys.oauth2.TokenGenerator;
