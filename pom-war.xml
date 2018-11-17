@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>xuchangjiang</groupId>
     <artifactId>xuchangjiang</artifactId>
-    <version>2.0.0</version>
+    <version>2.1.0</version>
     <packaging>war</packaging>
     <description>war包对应的pom，打war包，执行【mvn clean package -f pom-war.xml】</description>
 
