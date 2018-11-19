@@ -1,5 +1,9 @@
 package com.datang;
 
+import com.corundumstudio.socketio.AuthorizationListener;
+import com.corundumstudio.socketio.HandshakeData;
+import com.corundumstudio.socketio.SocketIOServer;
+import com.corundumstudio.socketio.annotation.SpringAnnotationScanner;
 import com.datang.datasources.DynamicDataSourceConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,6 +11,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Import;
 
 
@@ -21,5 +26,29 @@ public class Application extends SpringBootServletInitializer {
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(Application.class);
+	}
+
+	@Bean
+	public SocketIOServer socketIOServer() {
+		com.corundumstudio.socketio.Configuration config = new com.corundumstudio.socketio.Configuration();
+		config.setHostname("47.93.206.42");
+		config.setPort(9092);
+		config.setAuthorizationListener(new AuthorizationListener() {//类似过滤器
+			@Override
+			public boolean isAuthorized(HandshakeData data) {
+				//http://localhost:8081?username=test&password=test
+				//例如果使用上面的链接进行connect，可以使用如下代码获取用户密码信息，本文不做身份验证
+				String username = data.getSingleUrlParam("username");
+				String password = data.getSingleUrlParam("password");
+				return true;
+			}
+		});
+		final SocketIOServer server = new SocketIOServer(config);
+		return server;
+	}
+
+	@Bean
+	public SpringAnnotationScanner springAnnotationScanner(SocketIOServer socketServer) {
+		return new SpringAnnotationScanner(socketServer);
 	}
 }
