@@ -31,7 +31,7 @@ public class Application extends SpringBootServletInitializer {
 	@Bean
 	public SocketIOServer socketIOServer() {
 		com.corundumstudio.socketio.Configuration config = new com.corundumstudio.socketio.Configuration();
-		config.setHostname("47.93.206.42");
+		/*config.setHostname("47.93.206.42");*/
 		config.setPort(9092);
 		config.setAuthorizationListener(new AuthorizationListener() {//类似过滤器
 			@Override
